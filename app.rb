@@ -43,5 +43,6 @@ class App < Sinatra::Base
       when 'divide'
         answer = "#{n1 / n2}"
     end
+    # accepts an operation (add, subtract, multiply or divide) and performs the operation on the two numbers provided, returning a String
   end
 end
